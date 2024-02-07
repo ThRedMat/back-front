@@ -1,0 +1,20 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #496A81;
+$orange: #F3B61F;
+$white: #FDFFF7;
+$red: #CF5C36;
+$black: #0B0014;
+
+@mixin center-v-h {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
